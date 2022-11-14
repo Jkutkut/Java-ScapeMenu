@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">ScapeMenu</string>
     <string name="login_msg">Welcome, the search is about to begin. Be aware of the indications of the game, only this way you will be able to find the lost Intent.</string>
     <string name="todo" translatable="false">TODO</string>
-    <string name="login_etxt_hint" >Enter your name</string>
-    <string name="login_btn" >Begin</string>
+    <string name="login_etxt_hint">Enter your name</string>
+    <string name="login_btn">Begin</string>
     <string name="login_error_length">The user must have a length between %1$d and %2$d characters.</string>
 </resources>
