@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_msg">Hola, la búsqueda va a comenzar. Estate muy atento a las indicaciones del juego, sólo así podrás encontrar el Intent perdido.</string>
+    <string name="login_etxt_hint">Introduce tu nombre</string>
+    <string name="login_btn">Comenzar</string>
+    <string name="login_error_length">El nombre tiene que tener entre %1$d y %2$d caracteres.</string>
+</resources>

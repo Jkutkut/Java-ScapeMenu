@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="login_min_length">5</integer>
+    <integer name="login_max_length">25</integer>
+
+</resources>
