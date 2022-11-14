@@ -2,6 +2,7 @@ package com.jkutkut.scapemenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,9 +38,16 @@ public class MainActivity extends AppCompatActivity {
             );
             return;
         }
-        System.out.println("Valid login");
-        toastUser("Valid");
+        openDivideActivity1(user);
     }
+
+    private void openDivideActivity1(String user) {
+        Intent i = new Intent(this, DivideActivity1.class);
+        i.putExtra(getString(R.string.user), user);
+        startActivity(i);
+    }
+
+    // TOOLS
 
     private int getInt(int id) {
         return getResources().getInteger(id);

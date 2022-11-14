@@ -5,10 +5,10 @@
     <string name="login_etxt_hint">Enter your name</string>
     <string name="login_btn">Begin</string>
     <string name="login_error_length">The user must have a length between %1$d and %2$d characters.</string>
-    <string name="divide1_msg">Well %1$d, there is no turning back now. Now all you need is your courage and common sense to help you find the Intent we are looking for.</string>
+    <string name="divide1_msg">Well %1$s, there is no turning back now. Now all you need is your courage and common sense to help you find the Intent we are looking for.</string>
     <string name="good_path_btn">Long path</string>
     <string name="bad_path_btn">Sort path</string>
-    <string name="call_btn">Well, it seems you have not chosen the right path, please call me for help</string>
+    <string name="call_btn">Well, it seems you have not chosen the right path. Please call this number for help</string>
     <string name="open_btn">Open the door</string>
     <string name="keygen_btn">Get the key first</string>
     <string name="without_key_btn">Return without the key</string>
@@ -20,4 +20,9 @@
     <string name="divide2_error">You require a key to open the door</string>
     <string name="divide2_back_no_key">You are still without the key</string>
     <string name="divide2_back_with_key">You\'ve got a key. You can open the door</string>
+
+    <!-- Constants between intents -->
+    <string name="user" translatable="false">user</string>
+    <string name="divide2_msg">You have chosen the right path %1$s, you are already very close to the lost Intent. Open the door to check it.</string>
+    <string name="web" translatable="false">https://developer.android.com/guide/components/intents-filters.html</string>
 </resources>

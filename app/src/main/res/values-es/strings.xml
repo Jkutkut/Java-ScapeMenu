@@ -4,7 +4,7 @@
     <string name="login_etxt_hint">Introduce tu nombre</string>
     <string name="login_btn">Comenzar</string>
     <string name="login_error_length">El nombre tiene que tener entre %1$d y %2$d caracteres.</string>
-    <string name="divide1_msg">Bien %1$d, ya no hay vuelta atrás. Ahora sólo hace falta que tu valentía y tu sentido común te ayuden a encontrar el Intent que estamos buscando.</string>
+    <string name="divide1_msg">Bien %1$s, ya no hay vuelta atrás. Ahora sólo hace falta que tu valentía y tu sentido común te ayuden a encontrar el Intent que estamos buscando.</string>
     <string name="bad_path_btn">Atajo corto</string>
     <string name="good_path_btn">Atajo largo</string>
     <string name="call_btn">Vaya, parece que no has elegido el camino correcto, púlsame para pedir ayuda</string>
@@ -17,4 +17,5 @@
     <string name="divide2_back_no_key">Necesitas una llave para poder abrir la puerta.</string>
     <string name="divide2_error">Aún sigues sin llave</string>
     <string name="divide2_back_with_key">Ya tienes la llave. Puedes abrir la puerta!</string>
+    <string name="divide2_msg">Has elegido el camino correcto %1$s, ya estás muy cerca del Intent perdido. Abre la puerta para comprobarlo.</string>
 </resources>
