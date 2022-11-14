@@ -1,8 +1,23 @@
 <resources>
     <string name="app_name" translatable="false">ScapeMenu</string>
     <string name="login_msg">Welcome, the search is about to begin. Be aware of the indications of the game, only this way you will be able to find the lost Intent.</string>
-    <string name="todo" translatable="false">TODO</string>
+    <string name="todo" translatable="false">TODO</string> <!-- TODO -->
     <string name="login_etxt_hint">Enter your name</string>
     <string name="login_btn">Begin</string>
     <string name="login_error_length">The user must have a length between %1$d and %2$d characters.</string>
+    <string name="divide1_msg">Well %1$d, there is no turning back now. Now all you need is your courage and common sense to help you find the Intent we are looking for.</string>
+    <string name="good_path_btn">Long path</string>
+    <string name="bad_path_btn">Sort path</string>
+    <string name="call_btn">Well, it seems you have not chosen the right path, please call me for help</string>
+    <string name="open_btn">Open the door</string>
+    <string name="keygen_btn">Get the key first</string>
+    <string name="without_key_btn">Return without the key</string>
+    <string name="intent_btn">Congratulations! You have found the Intent. Just click to see it</string>
+    <string name="end_btn">End the game</string>
+    <string name="with_key_btn">Return with the key</string>
+
+    <!--      -->
+    <string name="divide2_error">You require a key to open the door</string>
+    <string name="divide2_back_no_key">You are still without the key</string>
+    <string name="divide2_back_with_key">You\'ve got a key. You can open the door</string>
 </resources>

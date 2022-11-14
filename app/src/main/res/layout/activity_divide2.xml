@@ -22,12 +22,12 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnKeyGen"
         android:layout_marginBottom="@dimen/layout_margin"
-        android:text="@string/todo"/>
+        android:text="@string/open_btn"/>
     <Button
         android:id="@+id/btnKeyGen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/todo"/>
+        android:text="@string/keygen_btn"/>
 
 </RelativeLayout>

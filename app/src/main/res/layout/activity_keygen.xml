@@ -11,7 +11,7 @@
         android:id="@+id/btnWithKey"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/todo"/>
+        android:text="@string/with_key_btn"/>
 
     <Button
         android:id="@+id/btnWithoutKey"
@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnWithKey"
         android:layout_marginTop="@dimen/layout_margin"
-        android:text="@string/todo"/>
+        android:text="@string/without_key_btn"/>
 
 </RelativeLayout>

@@ -8,9 +8,10 @@
     android:layout_margin="@dimen/layout_margin">
 
     <Button
+        android:id="@+id/btnIntent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/todo"
+        android:text="@string/intent_btn"
         android:layout_alignParentTop="true"/>
 
     <Button
@@ -18,5 +19,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/todo"/>
+        android:text="@string/end_btn"/>
 </RelativeLayout>
