@@ -2,6 +2,7 @@ package com.jkutkut.scapemenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,10 +22,8 @@ public class EndActivity extends AppCompatActivity {
         btnEnd = findViewById(R.id.btnEnd);
 
         btnIntent.setOnClickListener(v -> {
-            // Open website
-            // TODO not working on android 11, API 30
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(getString(R.string.web)));
+            Intent i = new Intent(Intent.ACTION_WEB_SEARCH);
+            i.putExtra(SearchManager.QUERY, getString(R.string.web));
             if (i.resolveActivity(getPackageManager()) != null)
                 startActivity(i);
         });
